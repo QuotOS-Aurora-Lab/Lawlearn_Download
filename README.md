@@ -13,15 +13,17 @@
 ## 体验激活码
 
 > [!NOTE]
-> 下面两个激活码在当前最新版本上仍然可用，供体验 Pro 与 Ultimate 的完整功能。**不保证对将来的新版本永久有效**，如某天失效，以届时页面上的说明为准。
+> 以下激活码适用于 **macOS 版**，在当前最新版本上仍然可用，供体验 Pro 与 Ultimate 的完整功能。**不保证对将来的新版本永久有效**，如某天失效，以届时页面上的说明为准。
 
 | 版本 | 激活码 |
 | :--- | :--- |
 | Pro | `PROUL-A5Q9S-XXKT8-R4JR9-WC2YE` |
 | Ultimate | `ULT6Q-Y7UM7-5FTSK-5QJSZ-GRFWT` |
 
-- 两个码对应两个不同入口，互不通用：Pro 码在「Lawlearn AI Pro」里输入，Ultimate 码在「Lawlearn AI Ultimate」里输入。
+- Pro 码在「Lawlearn AI Pro」入口输入，Ultimate 码在「Lawlearn AI Ultimate」入口输入，两者互不通用。
 - 激活成功后绑定当前设备；把配置拷贝到另一台机器会失效，需要重新激活。
+- **Windows 版没有版本分层**，安装后即可使用全部功能，不需要激活码。
+- **Android 版**的 AI 升级是演示流程，请使用应用内提示的演示码，上面两个码在安卓上无效。
 
 ---
 
