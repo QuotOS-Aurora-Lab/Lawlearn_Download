@@ -12,13 +12,14 @@
 
 ## 下载
 
-所有版本集中在 [Releases](../../releases) 页面，点进去下载对应平台的文件即可。
-
 | 平台 | 最新版本 | 系统要求 | 安装包 |
 | --- | --- | --- | --- |
-| macOS | 3.9.0 | macOS 14.0 及以上 | `Lawlearn-3.9.0.dmg` |
-| Windows | 1.2.3 | Windows 7 SP1 及以上（64 位） | `Lawlearn-1.2.3-setup.exe` |
-| Android | 1.3.2 | Android 8.0 及以上 | `Lawlearn_v1.3.2_android.apk` |
+| macOS | 3.9.0 | macOS 14.0 及以上 | [Lawlearn-3.9.0.dmg](https://github.com/2822598790-ui/lawlearn-download/releases/download/macOS-v3.9.0/Lawlearn-3.9.0.dmg) · 25 MB |
+| Windows | 1.2.3 | Windows 7 SP1 及以上（64 位） | 准备中 |
+| Windows Lite | 1.2.3 | 同上 | 准备中 · 仅含民商法 |
+| Android | 1.3.2 | Android 8.0 及以上 | [Lawlearn_v1.3.2_android.apk](https://github.com/2822598790-ui/lawlearn-download/releases/download/Android-v1.3.2/Lawlearn_v1.3.2_android.apk) · 29 MB |
+
+全部历史版本见 [Releases](../../releases)。
 
 ## 安装说明
 
@@ -37,11 +38,23 @@ xattr -dr com.apple.quarantine /Applications/Lawlearn.app
 1. 运行 `Lawlearn-1.2.3-setup.exe`，按向导安装。
 2. 程序默认装在当前用户目录下，不需要管理员权限。
 3. SmartScreen 拦截时点「更多信息 → 仍要运行」。
+4. Lite 版只包含民商法相关的法条，安装包更小、检索更快，适合日常查民商事条文。
 
 ### Android
 
 1. 下载 `.apk` 后点击安装，需要在系统设置里允许「安装未知来源应用」。
 2. 覆盖升级时请使用同一个签名版本，否则需要先卸载旧版——卸载会清空本地的收藏、笔记与浏览记录。
+
+## 校验值
+
+下载后可以对比 SHA-256，确认文件没有损坏或被动过：
+
+| 文件 | SHA-256 |
+| --- | --- |
+| `Lawlearn-3.9.0.dmg` | `1d7e6db3dcc52dc788910ccf130a71de8c319b93809f51c43d935b9136711066` |
+| `Lawlearn_v1.3.2_android.apk` | `e2a7993c2ac6c0cf43f8f6f6fd4fc9de9b1b4685228339453243ef7397cc11d0` |
+
+macOS 上执行 `shasum -a 256 文件名`，Windows 上执行 `certutil -hashfile 文件名 SHA256`。
 
 ## 版本说明
 
