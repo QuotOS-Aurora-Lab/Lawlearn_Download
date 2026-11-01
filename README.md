@@ -31,10 +31,10 @@
 
 | 平台 | 稳定版本 | 系统要求 | 安装包 |
 | --- | --- | --- | --- |
-| macOS | 3.9.0 | macOS 14.0 及以上 | [Lawlearn-3.9.0.dmg](https://github.com/2822598790-ui/lawlearn-download/releases/download/macOS-v3.9.0/Lawlearn-3.9.0.dmg) · 25 MB |
-| Windows | 1.2.5 | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.2.5.exe](https://github.com/2822598790-ui/lawlearn-download/releases/download/Windows-v1.2.5/Lawlearn-Setup-1.2.5.exe) · 101 MB |
-| Windows Lite | 1.2.5 | 同上 | [Lawlearn-Lite-Setup-1.2.5.exe](https://github.com/2822598790-ui/lawlearn-download/releases/download/Windows-v1.2.5-Lite/Lawlearn-Lite-Setup-1.2.5.exe) · 91 MB |
-| Android | 1.3.2 | Android 8.0 及以上 | [Lawlearn_v1.3.2_android.apk](https://github.com/2822598790-ui/lawlearn-download/releases/download/Android-v1.3.2/Lawlearn_v1.3.2_android.apk) · 29 MB |
+| macOS | 3.9.0 | macOS 14.0 及以上 | [Lawlearn-3.9.0.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v3.9.0/Lawlearn-3.9.0.dmg) · 25 MB |
+| Windows | 1.2.5 | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.2.5.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.2.5/Lawlearn-Setup-1.2.5.exe) · 101 MB |
+| Windows Lite | 1.2.5 | 同上 | [Lawlearn-Lite-Setup-1.2.5.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.2.5-Lite/Lawlearn-Lite-Setup-1.2.5.exe) · 91 MB |
+| Android | 1.3.2 | Android 8.0 及以上 | [Lawlearn_v1.3.2_android.apk](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Android-v1.3.2/Lawlearn_v1.3.2_android.apk) · 29 MB |
 
 全部历史版本都在 [Releases](../../releases) 里，最早可以追溯到 1.2.3。
 
@@ -50,9 +50,9 @@ Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提�
 
 | 类型 | 说明 | 安装包 |
 | --- | --- | --- |
-| Beta1 安装版 | 较早的测试构建 | [Lawlearn-Setup-4.0.0-Beta1.exe](https://github.com/2822598790-ui/lawlearn-download/releases/download/Windows-v4.0.0-Beta1/Lawlearn-Setup-4.0.0-Beta1.exe) · 42 MB |
-| Beta2 安装版 | 稍晚的测试构建 | [Lawlearn-Setup-4.0.0-Beta2.exe](https://github.com/2822598790-ui/lawlearn-download/releases/download/Windows-v4.0.0-Beta2/Lawlearn-Setup-4.0.0-Beta2.exe) · 98 MB |
-| 免安装版 | 解压后直接运行，不写系统、不产生卸载项 | [Lawlearn-Portable-4.0.0-Beta.zip](https://github.com/2822598790-ui/lawlearn-download/releases/download/Windows-v4.0.0-Beta-Portable/Lawlearn-Portable-4.0.0-Beta.zip) · 53 MB |
+| Beta1 安装版 | 较早的测试构建 | [Lawlearn-Setup-4.0.0-Beta1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v4.0.0-Beta1/Lawlearn-Setup-4.0.0-Beta1.exe) · 42 MB |
+| Beta2 安装版 | 稍晚的测试构建 | [Lawlearn-Setup-4.0.0-Beta2.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v4.0.0-Beta2/Lawlearn-Setup-4.0.0-Beta2.exe) · 98 MB |
+| 免安装版 | 解压后直接运行，不写系统、不产生卸载项 | [Lawlearn-Portable-4.0.0-Beta.zip](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v4.0.0-Beta-Portable/Lawlearn-Portable-4.0.0-Beta.zip) · 53 MB |
 
 - 免安装版解压后运行 `Lawlearn/Lawlearn.exe`，可以把整个文件夹放在 U 盘里带走。
 - Beta 版与 1.2.5 可以同时安装，但请装在不同的目录下，避免数据文件互相覆盖。
