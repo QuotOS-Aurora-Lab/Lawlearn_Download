@@ -36,7 +36,10 @@
 | Windows Lite | 1.2.5 | 同上 | [Lawlearn-Lite-Setup-1.2.5.exe](https://github.com/2822598790-ui/lawlearn-download/releases/download/Windows-v1.2.5-Lite/Lawlearn-Lite-Setup-1.2.5.exe) · 91 MB |
 | Android | 1.3.2 | Android 8.0 及以上 | [Lawlearn_v1.3.2_android.apk](https://github.com/2822598790-ui/lawlearn-download/releases/download/Android-v1.3.2/Lawlearn_v1.3.2_android.apk) · 29 MB |
 
-全部历史版本见 [Releases](../../releases)。
+全部历史版本都在 [Releases](../../releases) 里，最早可以追溯到 1.2.3。
+
+> [!IMPORTANT]
+> 1.x 和 2.x 属于早期存档，界面结构、功能范围与当前版本差别很大，未必适配新系统。日常使用请以下载表格里的版本为准，旧版本只在需要找回某个特定版本时下载。
 
 ## 版本选择
 
