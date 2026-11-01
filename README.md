@@ -29,7 +29,7 @@
 
 ## 下载
 
-| 平台 | 最新版本 | 系统要求 | 安装包 |
+| 平台 | 稳定版本 | 系统要求 | 安装包 |
 | --- | --- | --- | --- |
 | macOS | 3.9.0 | macOS 14.0 及以上 | [Lawlearn-3.9.0.dmg](https://github.com/2822598790-ui/lawlearn-download/releases/download/macOS-v3.9.0/Lawlearn-3.9.0.dmg) · 25 MB |
 | Windows | 1.2.5 | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.2.5.exe](https://github.com/2822598790-ui/lawlearn-download/releases/download/Windows-v1.2.5/Lawlearn-Setup-1.2.5.exe) · 101 MB |
@@ -40,6 +40,24 @@
 
 > [!IMPORTANT]
 > 1.x 和 2.x 属于早期存档，界面结构、功能范围与当前版本差别很大，未必适配新系统。日常使用请以下载表格里的版本为准，旧版本只在需要找回某个特定版本时下载。
+
+## Windows 4.0.0 Beta（测试版）
+
+> [!WARNING]
+> 这是预览版，功能与界面仍在调整，可能不稳定。**不建议把它当作唯一安装的版本**，稳妥起见请先装 1.2.5 作为日常使用，再把 Beta 装到另一个目录试用。
+
+Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提供三个测试包：
+
+| 类型 | 说明 | 安装包 |
+| --- | --- | --- |
+| Beta1 安装版 | 较早的测试构建 | [Lawlearn-Setup-4.0.0-Beta1.exe](https://github.com/2822598790-ui/lawlearn-download/releases/download/Windows-v4.0.0-Beta1/Lawlearn-Setup-4.0.0-Beta1.exe) · 42 MB |
+| Beta2 安装版 | 稍晚的测试构建 | [Lawlearn-Setup-4.0.0-Beta2.exe](https://github.com/2822598790-ui/lawlearn-download/releases/download/Windows-v4.0.0-Beta2/Lawlearn-Setup-4.0.0-Beta2.exe) · 98 MB |
+| 免安装版 | 解压后直接运行，不写系统、不产生卸载项 | [Lawlearn-Portable-4.0.0-Beta.zip](https://github.com/2822598790-ui/lawlearn-download/releases/download/Windows-v4.0.0-Beta-Portable/Lawlearn-Portable-4.0.0-Beta.zip) · 53 MB |
+
+- 免安装版解压后运行 `Lawlearn/Lawlearn.exe`，可以把整个文件夹放在 U 盘里带走。
+- Beta 版与 1.2.5 可以同时安装，但请装在不同的目录下，避免数据文件互相覆盖。
+- **4.0.0 Beta 不提供源代码。** 本节之外的下载项均为正式版本，源码说明只针对正式版本。
+- 反馈问题时请注明用的是 `Beta1` 还是 `Beta2`，两者并非同一份构建。
 
 ## 版本选择
 
@@ -83,6 +101,14 @@ xattr -dr com.apple.quarantine /Applications/Lawlearn.app
 | `Lawlearn_v1.3.2_android.apk` | `e2a7993c2ac6c0cf43f8f6f6fd4fc9de9b1b4685228339453243ef7397cc11d0` |
 
 macOS 上执行 `shasum -a 256 文件名`，Windows 上执行 `certutil -hashfile 文件名 SHA256`。
+
+Windows 4.0.0 Beta 的校验值：
+
+| 文件 | SHA-256 |
+| --- | --- |
+| `Lawlearn-Setup-4.0.0-Beta1.exe` | `97b4690b4c86d50550d7a83d79e024a75bb3bfb912a590d1291a23586047d299` |
+| `Lawlearn-Setup-4.0.0-Beta2.exe` | `d62188e7f3ac111917cf2c69b61076bf33b921d3013cc374b76ee401623573e0` |
+| `Lawlearn-Portable-4.0.0-Beta.zip` | `9f574fd4701f7050bf53ba257314eb84f0ede5566bdeb0ddccf6ee39dec9cce5` |
 
 ## 版本说明
 
