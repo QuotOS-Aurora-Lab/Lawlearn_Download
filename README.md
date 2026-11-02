@@ -31,7 +31,7 @@
 
 | 平台 | 稳定版本 | 系统要求 | 安装包 |
 | --- | --- | --- | --- |
-| macOS | 3.9.0 | macOS 14.0 及以上 | [Lawlearn-3.9.0.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v3.9.0/Lawlearn-3.9.0.dmg) · 25 MB |
+| macOS | 3.10.0 | macOS 14.0 及以上 | [Lawlearn-3.10.0.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v3.10.0/Lawlearn-3.10.0.dmg) · 25 MB |
 | Windows | 1.2.5 | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.2.5.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.2.5/Lawlearn-Setup-1.2.5.exe) · 101 MB |
 | Windows Lite | 1.2.5 | 同上 | [Lawlearn-Lite-Setup-1.2.5.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.2.5-Lite/Lawlearn-Lite-Setup-1.2.5.exe) · 91 MB |
 | Android | 1.3.2 | Android 8.0 及以上 | [Lawlearn_v1.3.2_android.apk](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Android-v1.3.2/Lawlearn_v1.3.2_android.apk) · 29 MB |
@@ -95,6 +95,7 @@ xattr -dr com.apple.quarantine /Applications/Lawlearn.app
 
 | 文件 | SHA-256 |
 | --- | --- |
+| `Lawlearn-3.10.0.dmg` | `0e49ff57b36f0e3a264546a54f6c5127d360cecd68f7304b4bc1e4157b4cdd21` |
 | `Lawlearn-3.9.0.dmg` | `1d7e6db3dcc52dc788910ccf130a71de8c319b93809f51c43d935b9136711066` |
 | `Lawlearn-Setup-1.2.5.exe` | `9db55520a9c3168f436ccb985a4736dd6e8817418ab0725898ba61170dff8183` |
 | `Lawlearn-Lite-Setup-1.2.5.exe` | `f984aae048be31bf88e6d5ddb862769997be8784e931d6469bea6f32d59068ca` |
