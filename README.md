@@ -29,12 +29,14 @@
 
 ## 下载
 
-| 平台 | 稳定版本 | 系统要求 | 安装包 |
-| --- | --- | --- | --- |
-| macOS | 3.10.1 | macOS 14.0 及以上 | [Lawlearn-3.10.1.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v3.10.1/Lawlearn-3.10.1.dmg) · 21 MB |
-| Windows | 1.2.5 | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.2.5.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.2.5/Lawlearn-Setup-1.2.5.exe) · 101 MB |
-| Windows Lite | 1.2.5 | 同上 | [Lawlearn-Lite-Setup-1.2.5.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.2.5-Lite/Lawlearn-Lite-Setup-1.2.5.exe) · 91 MB |
-| Android | 1.3.2 | Android 8.0 及以上 | [Lawlearn_v1.3.2_android.apk](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Android-v1.3.2/Lawlearn_v1.3.2_android.apk) · 29 MB |
+| 平台 | 稳定版本 | 架构 | 系统要求 | 安装包 |
+| --- | --- | --- | --- | --- |
+| macOS | 3.10.1 | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-3.10.1.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v3.10.1/Lawlearn-3.10.1.dmg) · 21 MB |
+| Windows | 1.2.5 | Python · PySide2（Qt 5.15） | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.2.5.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.2.5/Lawlearn-Setup-1.2.5.exe) · 101 MB |
+| Windows Lite | 1.2.5 | Python · PySide2（Qt 5.15） | 同上 | [Lawlearn-Lite-Setup-1.2.5.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.2.5-Lite/Lawlearn-Lite-Setup-1.2.5.exe) · 91 MB |
+| Android | 1.3.2 | Kotlin | Android 8.0 及以上 | [Lawlearn_v1.3.2_android.apk](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Android-v1.3.2/Lawlearn_v1.3.2_android.apk) · 29 MB |
+
+旧版存档：[macOS 1.x 最后一版 1.2.3](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v1.2.3/Lawlearn_v1.2.3_macOS.dmg)（Python · PySide6） · [macOS 2.x 最后一版 2.6.0](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v2.6.0/Lawlearn-2.6.0.dmg)
 
 全部历史版本都在 [Releases](../../releases) 里，最早可以追溯到 1.2.3。
 
