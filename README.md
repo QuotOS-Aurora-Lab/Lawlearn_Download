@@ -196,7 +196,7 @@ xattr -dr com.apple.quarantine /Applications/Lawlearn.app
 
 | 文件 | SHA-256 |
 | --- | --- |
-| `Lawlearn-3.12.1.dmg` | `3279b6facb2959a6b6ccd7ae529483ff42ba314270e49fb6052cc6dde1b005a6` |
+| `Lawlearn-3.12.1.dmg` | `dcfb2edb84800339b2d8c543bd2e0e9ed055715d184f7a070041e9ee3815ecd6` |
 | `Lawlearn-3.12.0.dmg` | `c6401a7defdeef4fc5ea6b4218648a66a7f9345978c47e24619747f80ce4ae90` |
 | `Lawlearn-3.11.0.dmg` | `87cbd8f0fa1eb609b8b68b153c5705647f6dc781893a4c49872d40deced201f5` |
 | `Lawlearn-3.10.1.dmg` | `d82e5d2ee1824244743ca4e3d4c80cc54a2b1cef7a48d6116e64563440e2fb2d` |
