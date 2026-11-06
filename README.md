@@ -31,7 +31,7 @@
 
 | 平台 | 稳定版本 | 架构 | 系统要求 | 安装包 |
 | --- | --- | --- | --- | --- |
-| macOS | 3.13.0 | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-3.13.0.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v3.13.0/Lawlearn-3.13.0.dmg) · 29 MB |
+| macOS | 3.13.1 | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-3.13.1.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v3.13.1/Lawlearn-3.13.1.dmg) · 36 MB |
 | Windows | 1.2.6 | Python · PySide2（Qt 5.15） | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.2.6.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.2.6/Lawlearn-Setup-1.2.6.exe) · 109 MB |
 | Windows Lite | 1.2.6 | Python · PySide2（Qt 5.15） | 同上 | [Lawlearn-Lite-Setup-1.2.6.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.2.6-Lite/Lawlearn-Lite-Setup-1.2.6.exe) · 99 MB |
 | Android | 1.3.2 | Kotlin | Android 8.0 及以上 | [Lawlearn_v1.3.2_android.apk](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Android-v1.3.2/Lawlearn_v1.3.2_android.apk) · 29 MB |
@@ -102,7 +102,7 @@ xattr -dr com.apple.quarantine /Applications/Lawlearn.app
 
 ### 收录了什么
 
-138 部法律和司法解释、共 10,101 条条文（其中司法解释 92 份、3,469 条），全部存在你的电脑里。**断网也能查条文**，不联网不登录就能完成日常检索和阅读。
+139 部法律和司法解释、共 10,153 条条文（其中司法解释 92 份、3,469 条），全部存在你的电脑里。**断网也能查条文**，不联网不登录就能完成日常检索和阅读。
 
 ### 软件长什么样
 
@@ -198,6 +198,7 @@ xattr -dr com.apple.quarantine /Applications/Lawlearn.app
 
 | 文件 | SHA-256 |
 | --- | --- |
+| `Lawlearn-3.13.1.dmg` | `6a0044380b9f571e611894dbe15683ecce51a56e391ab2409f55cd9320987932` |
 | `Lawlearn-3.13.0.dmg` | `f69800952895258c6e6c5863829405bf8ced8dc3d68f7b8987e7f613094cd43c` |
 | `Lawlearn-3.12.1.dmg` | `eaa9ffdaa013fda069f8c602ac0f9ea92ac390bfca79d3cbd48a0d4d2901ac73` |
 | `Lawlearn-3.12.0.dmg` | `c6401a7defdeef4fc5ea6b4218648a66a7f9345978c47e24619747f80ce4ae90` |
