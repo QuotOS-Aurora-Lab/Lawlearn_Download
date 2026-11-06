@@ -32,8 +32,8 @@
 | 平台 | 稳定版本 | 架构 | 系统要求 | 安装包 |
 | --- | --- | --- | --- | --- |
 | macOS | 3.13.1 | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-3.13.1.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v3.13.1/Lawlearn-3.13.1.dmg) · 36 MB |
-| Windows | 1.2.6 | Python · PySide2（Qt 5.15） | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.2.6.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.2.6/Lawlearn-Setup-1.2.6.exe) · 109 MB |
-| Windows Lite | 1.2.6 | Python · PySide2（Qt 5.15） | 同上 | [Lawlearn-Lite-Setup-1.2.6.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.2.6-Lite/Lawlearn-Lite-Setup-1.2.6.exe) · 99 MB |
+| Windows | 1.5.1 | Python · PySide2（Qt 5.15） | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1/Lawlearn-Setup-1.5.1.exe) · 206 MB |
+| Windows Lite | 1.5.1 | Python · PySide2（Qt 5.15） | 同上 | [Lawlearn-Lite-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1-Lite/Lawlearn-Lite-Setup-1.5.1.exe) · 136 MB |
 | Android | 1.3.2 | Kotlin | Android 8.0 及以上 | [Lawlearn_v1.3.2_android.apk](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Android-v1.3.2/Lawlearn_v1.3.2_android.apk) · 29 MB |
 
 旧版存档：[macOS 1.x 最后一版 1.2.3](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v1.2.3/Lawlearn_v1.2.3_macOS.dmg)（Python · PySide6） · [macOS 2.x 最后一版 2.6.0](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v2.6.0/Lawlearn-2.6.0.dmg)
@@ -65,7 +65,8 @@ Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提�
 
 **Windows 有两个版本**，按需要选一个装即可，不要同时装：
 
-- **完整版**：包含全部法律条文与司法解释，覆盖范围最广。1.2.6 起法条库按四卷组织——核心法（宪法、民法、商法、刑法）、附加法（行政、经济、知识产权、劳动社保、环境资源）、司法解释、国际法，合计 **107 部 / 9408 条**。
+- **完整版**：包含全部法律条文与司法解释，覆盖范围最广。法条库按四卷组织——核心法（宪法、民法、商法、刑法）、附加法（行政、经济、知识产权、劳动社保、环境资源）、司法解释、国际法，合计 **107 部 / 9408 条**。
+- **本地 AI 模型（1.5.1 起）**：完整版安装包只带推理运行时，不含模型权重，在「AI 助手 → 本地模型」里按需下载（迷你 0.5B / 轻量 1.5B / 标准 3B / 增强 7B，0.5–4.4 GB，存本机用户目录）；不下载也能用云端 API。
 - **Lite 版**：只包含民商法相关的法条，体积更小、启动更快，适合日常查民商事条文。收录民法 / 商法 / 知识产权 **14 部 / 3266 条**，以及对应的司法解释 **35 部 / 1564 条**。
 
 完整版与 Lite 版的数据分别放在 `%APPDATA%/lawlearn/db` 与 `%APPDATA%/lawlearn/db-lite`，即使先后都装过也不会互相串数据。
@@ -206,6 +207,8 @@ xattr -dr com.apple.quarantine /Applications/Lawlearn.app
 | `Lawlearn-3.10.1.dmg` | `d82e5d2ee1824244743ca4e3d4c80cc54a2b1cef7a48d6116e64563440e2fb2d` |
 | `Lawlearn-3.10.0.dmg` | `0e49ff57b36f0e3a264546a54f6c5127d360cecd68f7304b4bc1e4157b4cdd21` |
 | `Lawlearn-3.9.0.dmg` | `1d7e6db3dcc52dc788910ccf130a71de8c319b93809f51c43d935b9136711066` |
+| `Lawlearn-Setup-1.5.1.exe` | `5745a799c7177d1fc606b250fbf8eb1cfea66f86a0095fb36856c56b4c871dca` |
+| `Lawlearn-Lite-Setup-1.5.1.exe` | `bd7b027cc07ce3d6744253dd94ea0e7e20700df1b39c69544f927cd253462b28` |
 | `Lawlearn-Setup-1.2.6.exe` | `45fe683fd088ac9edd3ba1ed9f8b86d4fc0b8a1ff463265b73f3775124061dbc` |
 | `Lawlearn-Lite-Setup-1.2.6.exe` | `b04001b6ff022024df35ad9843e22d438e37cce7c37543f864340859f1c35a3c` |
 | `Lawlearn_v1.3.2_android.apk` | `e2a7993c2ac6c0cf43f8f6f6fd4fc9de9b1b4685228339453243ef7397cc11d0` |
