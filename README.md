@@ -39,7 +39,7 @@ macOS 端从 PySide6 原型起步，依次走过 SwiftUI 2.0、3.0，当前为 S
 | Windows | **2.0.0** | C# 12 · .NET 8 · WinUI 3 | Windows 10 1809（build 17763）及以上，64 位 | [Lawlearn-Setup-2.0.0.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v2.0.0/Lawlearn-Setup-2.0.0.exe) · 92 MB |
 | Windows（Win7 存档） | 1.5.1 | Python · PySide2（Qt 5.15） | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1/Lawlearn-Setup-1.5.1.exe) · 206 MB |
 | Windows Lite | 1.5.1 | 同上 | 同上 | [Lawlearn-Lite-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1-Lite/Lawlearn-Lite-Setup-1.5.1.exe) · 136 MB |
-| Android | 1.3.2 | Kotlin | Android 8.0 及以上 | [Lawlearn_v1.3.2_android.apk](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Android-v1.3.2/Lawlearn_v1.3.2_android.apk) · 29 MB |
+| Android | **1.5.0** | Kotlin | Android 8.0 及以上 | [Lawlearn_v1.5.0_android.apk](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Android-v1.5.0/Lawlearn_v1.5.0_android.apk) · 35 MB |
 
 全部历史版本都在 [Releases](../../releases) 里，最早可以追溯到 1.2.3。旧版存档：
 
@@ -265,6 +265,7 @@ Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提�
 | `Lawlearn-Lite-Setup-1.5.1.exe` | `bc4f5d90029a293fedb745b50dd2ee6f2900d256b93e266bce2f03fc34f6823d` |
 | `Lawlearn-Setup-1.2.6.exe` | `45fe683fd088ac9edd3ba1ed9f8b86d4fc0b8a1ff463265b73f3775124061dbc` |
 | `Lawlearn-Lite-Setup-1.2.6.exe` | `b04001b6ff022024df35ad9843e22d438e37cce7c37543f864340859f1c35a3c` |
+| `Lawlearn_v1.5.0_android.apk` | `3190caecc21826c40a060caedde092f81c57f0c2c939571559560ec77b0a8788` |
 | `Lawlearn_v1.3.2_android.apk` | `e2a7993c2ac6c0cf43f8f6f6fd4fc9de9b1b4685228339453243ef7397cc11d0` |
 | `Lawlearn-Setup-4.0.0-Beta1.exe` | `97b4690b4c86d50550d7a83d79e024a75bb3bfb912a590d1291a23586047d299` |
 | `Lawlearn-Setup-4.0.0-Beta2.exe` | `d62188e7f3ac111917cf2c69b61076bf33b921d3013cc374b76ee401623573e0` |
@@ -277,6 +278,8 @@ Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提�
 每个版本的改动记录写在对应 Release 的说明里，点进 [Releases](../../releases) 即可查看。
 
 macOS **4.0.1** 是当前版本：原文与司法解释改为双向成块互见，司法解释正文下可直接回看对应原条文；法条关联链升级为可缩放的关系图；历史版本对照界面重做；历史条文改用 SQLite 按需读取，安装包与启动占用更小。Pro 档位已取消，全部功能下载即用。
+
+Android **1.5.0** 改为四卷数据库（核心法 14 部、附加法 23 部、国际法 10 部、司法解释 92 部），按 `data_version` 整卷替换升级，覆盖安装不再清空收藏、笔记与浏览记录；从 1.4.0 升级会自动迁移旧数据。APK 约 35 MB。
 
 Windows 2.0.0 的完整改动与 Windows 7 兼容性说明见 [Windows-v2.0.0](../../releases/tag/Windows-v2.0.0)；1.5.1 与 Lite 保持原样。
 
