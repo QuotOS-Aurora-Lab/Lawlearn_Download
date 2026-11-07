@@ -20,7 +20,7 @@
 
 | 平台 | 版本 | 技术栈 | 系统要求 | 安装包 |
 | :--- | :--- | :--- | :--- | :--- |
-| macOS | 3.14.0 | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-3.14.0.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v3.14.0/Lawlearn-3.14.0.dmg) · 31 MB |
+| macOS | 4.0.1 | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-4.0.1.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v4.0.1/Lawlearn-4.0.1.dmg) · 32 MB |
 | Windows | **2.0.0** | C# 12 · .NET 8 · WinUI 3 | Windows 10 1809（build 17763）及以上，64 位 | [Lawlearn-Setup-2.0.0.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v2.0.0/Lawlearn-Setup-2.0.0.exe) · 92 MB |
 | Windows（Win7 存档） | 1.5.1 | Python · PySide2（Qt 5.15） | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1/Lawlearn-Setup-1.5.1.exe) · 206 MB |
 | Windows Lite | 1.5.1 | 同上 | 同上 | [Lawlearn-Lite-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1-Lite/Lawlearn-Lite-Setup-1.5.1.exe) · 136 MB |
@@ -63,14 +63,13 @@
 
 ## 体验激活码
 
-以下激活码适用于 **macOS 版**，在当前最新版本上仍然可用，供体验 Pro 与 Ultimate 的完整功能。**不保证对将来的新版本永久有效**，如某天失效，以届时页面上的说明为准。
+以下激活码适用于 **macOS 版**，供体验 Ultimate（本地大模型）的完整功能。原 Pro 档位已取消，智能解释、Casus® 分析、推理强度、Aether 角色与全部图标现在**下载即用、永久免费**，不再需要 Pro 激活码。**不保证对将来的新版本永久有效**，如某天失效，以届时页面上的说明为准。
 
 | 版本 | 激活码 |
 | :--- | :--- |
-| Pro | `PROUL-A5Q9S-XXKT8-R4JR9-WC2YE` |
 | Ultimate | `ULT6Q-Y7UM7-5FTSK-5QJSZ-GRFWT` |
 
-- Pro 码在「Lawlearn AI Pro」入口输入，Ultimate 码在「Lawlearn AI Ultimate」入口输入，两者互不通用。
+- Ultimate 码在「Lawlearn AI Ultimate」入口输入；标准版功能无需任何激活码。
 - 激活成功后绑定当前设备；把配置拷贝到另一台机器会失效，需要重新激活。
 - **Windows 版没有版本分层**，安装后即可使用全部功能，不需要激活码。
 - **Android 版**的 AI 升级是演示流程，请使用应用内提示的演示码，上面两个码在安卓上无效。
@@ -158,7 +157,7 @@ xattr -dr com.apple.quarantine /Applications/Lawlearn.app
 | ⌥⌘A | 打开对话小窗 |
 | Esc / 回车 | 关闭解释窗口 |
 
-### 智能解释（需要 Pro）
+### 智能解释（免费）
 
 在条文里选中一段文字（什么都不选就是解释整条），按 ⇧⌘X，会弹出一个小窗口，用白话给你解释这段话什么意思——用法跟查词典一样。
 
@@ -168,7 +167,7 @@ xattr -dr com.apple.quarantine /Applications/Lawlearn.app
 - 同一条条文、同一个模型、同一档位，24 小时内再问会直接复用上次结果，不重复消耗。
 - 这个功能要联网并填入自己的 AI 服务密钥（支持七家服务商，填进去会自动识别）；没有密钥时，本机装了本地模型也能用。
 
-### 案情分析（需要 Pro）
+### 案情分析（免费）
 
 按 ⇧⌘K，把案情描述或题目粘贴进去，软件会自动判断你贴的是哪一类：
 
@@ -236,6 +235,7 @@ Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提�
 
 | 文件 | SHA-256 |
 | :--- | :--- |
+| `Lawlearn-4.0.1.dmg` | `55f0cbec7d21fdf96394e804463a17bae95b89ec6ec3c9c041492d671e74b202` |
 | `Lawlearn-3.14.0.dmg` | `74d9311f1d8895d0a62ab12cfcebf2668631cad6d87f234cb2fc1e0f3c651238` |
 | `Lawlearn-3.13.1.dmg` | `de33a0562d7acce9100706a9feb45aacaa928fa37326b7e643c078eab145fe99` |
 | `Lawlearn-3.13.0.dmg` | `f69800952895258c6e6c5863829405bf8ced8dc3d68f7b8987e7f613094cd43c` |
