@@ -22,11 +22,20 @@
 
 ![Lawlearn 2.0.0 Windows 实机画面](assets/screenshot-windows-2.0.png)
 
+## 版本演进
+
+<p align="center">
+  <img src="assets/version-evolution.png" alt="Lawlearn 版本演进：PySide6 → SwiftUI 4.0；Windows PySide2 → WinUI 3，Lite 版保留轻量路线" width="1000">
+</p>
+
+macOS 端从 PySide6 原型起步，依次走过 SwiftUI 2.0、3.0，当前为 SwiftUI 4.0；Windows 端从 PySide2 分支走向 WinUI 3 标准版，Lite 版继续保留轻量路线；Android 端为 Kotlin 版本。
+
+
 ## 下载
 
 | 平台 | 版本 | 技术栈 | 系统要求 | 安装包 |
 | :--- | :--- | :--- | :--- | :--- |
-| macOS | 3.14.0 | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-3.14.0.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v3.14.0/Lawlearn-3.14.0.dmg) · 31 MB |
+| macOS | **4.0.1** | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-4.0.1.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v4.0.1/Lawlearn-4.0.1.dmg) · 33 MB |
 | Windows | **2.0.0** | C# 12 · .NET 8 · WinUI 3 | Windows 10 1809（build 17763）及以上，64 位 | [Lawlearn-Setup-2.0.0.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v2.0.0/Lawlearn-Setup-2.0.0.exe) · 92 MB |
 | Windows（Win7 存档） | 1.5.1 | Python · PySide2（Qt 5.15） | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1/Lawlearn-Setup-1.5.1.exe) · 206 MB |
 | Windows Lite | 1.5.1 | 同上 | 同上 | [Lawlearn-Lite-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1-Lite/Lawlearn-Lite-Setup-1.5.1.exe) · 136 MB |
@@ -241,6 +250,7 @@ Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提�
 
 | 文件 | SHA-256 |
 | :--- | :--- |
+| `Lawlearn-4.0.1.dmg` | `0febe56546638497720fb06d440eb626acfab98bbb326f3ec1dfd5e8fd0acebd` |
 | `Lawlearn-3.14.0.dmg` | `74d9311f1d8895d0a62ab12cfcebf2668631cad6d87f234cb2fc1e0f3c651238` |
 | `Lawlearn-3.13.1.dmg` | `de33a0562d7acce9100706a9feb45aacaa928fa37326b7e643c078eab145fe99` |
 | `Lawlearn-3.13.0.dmg` | `f69800952895258c6e6c5863829405bf8ced8dc3d68f7b8987e7f613094cd43c` |
@@ -265,6 +275,9 @@ Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提�
 ## 版本说明
 
 每个版本的改动记录写在对应 Release 的说明里，点进 [Releases](../../releases) 即可查看。
+
+macOS **4.0.1** 是当前版本：原文与司法解释改为双向成块互见，司法解释正文下可直接回看对应原条文；法条关联链升级为可缩放的关系图；历史版本对照界面重做；历史条文改用 SQLite 按需读取，安装包与启动占用更小。Pro 档位已取消，全部功能下载即用。
+
 Windows 2.0.0 的完整改动与 Windows 7 兼容性说明见 [Windows-v2.0.0](../../releases/tag/Windows-v2.0.0)；1.5.1 与 Lite 保持原样。
 
 ## 关于源代码
