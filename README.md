@@ -20,7 +20,7 @@
 
 | 平台 | 版本 | 技术栈 | 系统要求 | 安装包 |
 | :--- | :--- | :--- | :--- | :--- |
-| macOS | 4.0.1 | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-4.0.1.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v4.0.1/Lawlearn-4.0.1.dmg) · 32 MB |
+| macOS | 3.14.0 | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-3.14.0.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v3.14.0/Lawlearn-3.14.0.dmg) · 31 MB |
 | Windows | **2.0.0** | C# 12 · .NET 8 · WinUI 3 | Windows 10 1809（build 17763）及以上，64 位 | [Lawlearn-Setup-2.0.0.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v2.0.0/Lawlearn-Setup-2.0.0.exe) · 92 MB |
 | Windows（Win7 存档） | 1.5.1 | Python · PySide2（Qt 5.15） | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1/Lawlearn-Setup-1.5.1.exe) · 206 MB |
 | Windows Lite | 1.5.1 | 同上 | 同上 | [Lawlearn-Lite-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1-Lite/Lawlearn-Lite-Setup-1.5.1.exe) · 136 MB |
@@ -235,7 +235,6 @@ Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提�
 
 | 文件 | SHA-256 |
 | :--- | :--- |
-| `Lawlearn-4.0.1.dmg` | `86f9d8be7fc4fc43a70645006733b65841d12e81b9be651e7a1203eeb9057506` |
 | `Lawlearn-3.14.0.dmg` | `74d9311f1d8895d0a62ab12cfcebf2668631cad6d87f234cb2fc1e0f3c651238` |
 | `Lawlearn-3.13.1.dmg` | `de33a0562d7acce9100706a9feb45aacaa928fa37326b7e643c078eab145fe99` |
 | `Lawlearn-3.13.0.dmg` | `f69800952895258c6e6c5863829405bf8ced8dc3d68f7b8987e7f613094cd43c` |
