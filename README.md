@@ -16,6 +16,12 @@
 
 ![法法典 Lawlearn 主界面](assets/screenshot-main.png)
 
+### Windows 2.0.0 实机画面
+
+下面是 Windows 2.0.0（WinUI 3）在 Windows 11 上真实运行的截图：搜索「正当防卫」，中栏给出检索结果，右栏显示《民法典》第一百八十一条正文与关联司法解释，左栏是按大组折叠的法律库。
+
+![Lawlearn 2.0.0 Windows 实机画面](assets/screenshot-windows-2.0.png)
+
 ## 下载
 
 | 平台 | 版本 | 技术栈 | 系统要求 | 安装包 |
