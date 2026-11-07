@@ -235,7 +235,7 @@ Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提�
 
 | 文件 | SHA-256 |
 | :--- | :--- |
-| `Lawlearn-4.0.1.dmg` | `55f0cbec7d21fdf96394e804463a17bae95b89ec6ec3c9c041492d671e74b202` |
+| `Lawlearn-4.0.1.dmg` | `86f9d8be7fc4fc43a70645006733b65841d12e81b9be651e7a1203eeb9057506` |
 | `Lawlearn-3.14.0.dmg` | `74d9311f1d8895d0a62ab12cfcebf2668631cad6d87f234cb2fc1e0f3c651238` |
 | `Lawlearn-3.13.1.dmg` | `de33a0562d7acce9100706a9feb45aacaa928fa37326b7e643c078eab145fe99` |
 | `Lawlearn-3.13.0.dmg` | `f69800952895258c6e6c5863829405bf8ced8dc3d68f7b8987e7f613094cd43c` |
