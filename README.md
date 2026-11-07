@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/lawlearn-ultimate-banner.png" alt="Lawlearn Ultimate" width="760">
+
 <img src="assets/icon.png" width="120" alt="法法典 Lawlearn 图标" />
 
 # 法法典 Lawlearn
@@ -192,9 +194,9 @@ xattr -dr com.apple.quarantine /Applications/Lawlearn.app
 - 法条更新需要下载新版本安装包，软件不会自动更新条文。
 - 条文内容以官方公布为准，软件内的检索和解读仅供学习参考，不构成法律意见。
 
-## Windows 4.0.0 Beta（测试版）
+<details>
+<summary><strong>Windows 4.0.0 Beta（旧测试版，点开展开）</strong></summary>
 
-> [!WARNING]
 > 这是预览版，功能与界面仍在调整，可能不稳定。**不建议把它当作唯一安装的版本**，稳妥起见请先装上表的 2.0.0 作为日常使用，再把 Beta 装到另一个目录试用。
 
 Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提供三个测试包：
@@ -209,6 +211,8 @@ Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提�
 - Beta 版与 2.0.0（或 1.5.1）可以同时安装，但请装在不同的目录下，避免数据文件互相覆盖。
 - **4.0.0 Beta 不提供源代码。** 本节之外的下载项均为正式版本。
 - 反馈问题时请注明用的是 `Beta1` 还是 `Beta2`，两者并非同一份构建。
+
+</details>
 
 ## 校验值
 
