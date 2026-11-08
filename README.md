@@ -35,7 +35,7 @@ macOS 端从 PySide6 原型起步，依次走过 SwiftUI 2.0、3.0，当前为 S
 
 | 平台 | 版本 | 技术栈 | 系统要求 | 安装包 |
 | :--- | :--- | :--- | :--- | :--- |
-| macOS | **4.0.1** | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-4.0.1.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v4.0.1/Lawlearn-4.0.1.dmg) · 33 MB |
+| macOS | **4.0.2** | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-4.0.2.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v4.0.2/Lawlearn-4.0.2.dmg) · 46 MB |
 | Windows | **2.0.0** | C# 12 · .NET 8 · WinUI 3 | Windows 10 1809（build 17763）及以上，64 位 | [Lawlearn-Setup-2.0.0.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v2.0.0/Lawlearn-Setup-2.0.0.exe) · 92 MB |
 | Windows（Win7 存档） | 1.5.1 | Python · PySide2（Qt 5.15） | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1/Lawlearn-Setup-1.5.1.exe) · 206 MB |
 | Windows Lite | 1.5.1 | 同上 | 同上 | [Lawlearn-Lite-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1-Lite/Lawlearn-Lite-Setup-1.5.1.exe) · 136 MB |
@@ -70,7 +70,7 @@ macOS 端从 PySide6 原型起步，依次走过 SwiftUI 2.0、3.0，当前为 S
 
 在「设置 → 智能」里点一张卡片，按 ⌥⌘A 打开的对话小窗就会换成这位角色的形象和说话方式。没联网、没填密钥时也能聊——它会直接翻本地法条库，把相关条文列给你。
 
-| <img src="assets/char-cecil.png" width="80"><br>**Cecil** | <img src="assets/char-aetheria.png" width="80"><br>**Aetheria** | <img src="assets/char-nox.png" width="80"><br>**Nox** | <img src="assets/char-scheien.png" width="80"><br>**夏依恩** |
+| <img src="assets/char-cecil.png" width="80"><br>**谢辞希** | <img src="assets/char-aetheria.png" width="80"><br>**伊诗雅** | <img src="assets/char-nox.png" width="80"><br>**罗亘斯** | <img src="assets/char-scheien.png" width="80"><br>**夏依恩** |
 | :---: | :---: | :---: | :---: |
 | 冷静可靠的赛博管家，理性、克制、护短，习惯称你一声「阁下」。 | 傲娇却靠谱的女仆，嘴上不饶人，关键时刻把你护得好好的。 | 住在电脑里的粉紫色小幽灵，软软糯糯、慢半拍，却一句话点到关键。 | 獬豸化形的大小姐，傲娇毒舌、讲究格式，遇上不公第一个替你出头。 |
 
@@ -250,6 +250,7 @@ Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提�
 
 | 文件 | SHA-256 |
 | :--- | :--- |
+| `Lawlearn-4.0.2.dmg` | `0469b57867280637d82668331edf56dd9428c57e23332ec1cd41bedd47fe990d` |
 | `Lawlearn-4.0.1.dmg` | `0febe56546638497720fb06d440eb626acfab98bbb326f3ec1dfd5e8fd0acebd` |
 | `Lawlearn-3.14.0.dmg` | `74d9311f1d8895d0a62ab12cfcebf2668631cad6d87f234cb2fc1e0f3c651238` |
 | `Lawlearn-3.13.1.dmg` | `de33a0562d7acce9100706a9feb45aacaa928fa37326b7e643c078eab145fe99` |
@@ -277,7 +278,7 @@ Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提�
 
 每个版本的改动记录写在对应 Release 的说明里，点进 [Releases](../../releases) 即可查看。
 
-macOS **4.0.1** 是当前版本：原文与司法解释改为双向成块互见，司法解释正文下可直接回看对应原条文；法条关联链升级为可缩放的关系图；历史版本对照界面重做；历史条文改用 SQLite 按需读取，安装包与启动占用更小。Pro 档位已取消，全部功能下载即用。
+macOS **4.0.2** 是当前版本：基于法律专业的考量，减少了不必要的英文词汇出现；Aether 角色显示名统一为中文（谢辞希、伊诗雅、罗亘斯、夏依恩），内部 ID 与变量名保持不变，设置里的角色卡片、形象菜单、自定义图标与使用指南同步更新。
 
 Android **1.5.0** 改为四卷数据库（核心法 14 部、附加法 23 部、国际法 10 部、司法解释 92 部），按 `data_version` 整卷替换升级，覆盖安装不再清空收藏、笔记与浏览记录；从 1.4.0 升级会自动迁移旧数据。APK 约 35 MB。
 
