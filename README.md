@@ -16,11 +16,11 @@
 
 ![法法典 Lawlearn 主界面](assets/screenshot-main.png)
 
-### Windows 2.0.0 实机画面
+### Windows 2.0 实机画面
 
-下面是 Windows 2.0.0（WinUI 3）在 Windows 11 上真实运行的截图：搜索「正当防卫」，中栏给出检索结果，右栏显示《民法典》第一百八十一条正文与关联司法解释，左栏是按大组折叠的法律库。
+下面是 Windows 2.0 系列（WinUI 3，当前版本 2.0.1）在 Windows 11 上真实运行的截图：搜索「正当防卫」，中栏给出检索结果，右栏显示《民法典》第一百八十一条正文与关联司法解释，左栏是按大组折叠的法律库。
 
-![Lawlearn 2.0.0 Windows 实机画面](assets/screenshot-windows-2.0.png)
+![Lawlearn 2.0 Windows 实机画面](assets/screenshot-windows-2.0.png)
 
 ## 版本演进
 
@@ -36,7 +36,7 @@ macOS 端从 PySide6 原型起步，依次走过 SwiftUI 2.0、3.0，当前为 S
 | 平台 | 版本 | 技术栈 | 系统要求 | 安装包 |
 | :--- | :--- | :--- | :--- | :--- |
 | macOS | **4.0.2** | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-4.0.2.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v4.0.2/Lawlearn-4.0.2.dmg) · 46 MB |
-| Windows | **2.0.0** | C# 12 · .NET 8 · WinUI 3 | Windows 10 1809（build 17763）及以上，64 位 | [Lawlearn-Setup-2.0.0.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v2.0.0/Lawlearn-Setup-2.0.0.exe) · 92 MB |
+| Windows | **2.0.1** | C# 12 · .NET 8 · WinUI 3 | Windows 10 1809（build 17763）及以上，64 位 | [Lawlearn-Setup-2.0.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v2.0.1/Lawlearn-Setup-2.0.1.exe) · 92 MB |
 | Windows（Win7 存档） | 1.5.1 | Python · PySide2（Qt 5.15） | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1/Lawlearn-Setup-1.5.1.exe) · 206 MB |
 | Windows Lite | 1.5.1 | 同上 | 同上 | [Lawlearn-Lite-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1-Lite/Lawlearn-Lite-Setup-1.5.1.exe) · 136 MB |
 | Android | **1.5.0** | Kotlin | Android 8.0 及以上 | [Lawlearn_v1.5.0_android.apk](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Android-v1.5.0/Lawlearn_v1.5.0_android.apk) · 35 MB |
@@ -49,15 +49,15 @@ macOS 端从 PySide6 原型起步，依次走过 SwiftUI 2.0、3.0，当前为 S
 > [!NOTE]
 > **Windows 7 / 8.1 兼容性说明**
 >
-> 2.0.0 换用 WinUI 3 重写，**要求 Windows 10 1809（build 17763）及以上、64 位**；
+> 2.0 系列换用 WinUI 3 重写（当前版本 2.0.1），**要求 Windows 10 1809（build 17763）及以上、64 位**；
 > Windows 7 SP1、Windows 8.1 和 32 位系统无法运行，安装程序会直接拦下。
 >
 > 仍在用这些系统请下载上表的 **1.5.1 完整版**（或 1.5.1 Lite）：
 > **1.5.1 是最后一个兼容 Windows 7 的版本**，功能已冻结、不再更新，仅作存档；
-> 它的 Python + PySide2 界面与 2.0.0 差别较大，但四卷法条库内容一致、Win7 SP1 及以上可正常运行。
+> 它的 Python + PySide2 界面与 2.0.1 差别较大，但四卷法条库内容一致、Win7 SP1 及以上可正常运行。
 >
-> 1.5.1 完整版与 2.0.0 共用 `%APPDATA%\lawlearn`，收藏、笔记、历史沿用同一套表结构，
-> 日后换到 Windows 10 以上再装 2.0.0 时无需迁移；Lite 版的数据单独放在
+> 1.5.1 完整版与 2.0.1 共用 `%APPDATA%\lawlearn`，收藏、笔记、历史沿用同一套表结构，
+> 日后换到 Windows 10 以上再装 2.0.1 时无需迁移；Lite 版的数据单独放在
 > `%APPDATA%\lawlearn\db-lite`，与完整版互不干扰。
 
 > [!IMPORTANT]
@@ -66,7 +66,7 @@ macOS 端从 PySide6 原型起步，依次走过 SwiftUI 2.0、3.0，当前为 S
 ## macOS 专属 · Aether 四位对话伙伴
 
 > [!NOTE]
-> **这是 Mac 端独有的一个小彩蛋，不是各平台共有的功能。** 只有 macOS 版（3.14.0 及以上）才有；Windows 2.0.0 / 1.5.1 与 Android 版都没有，也不影响它们一致的法条检索与学习功能。
+> **这是 Mac 端独有的一个小彩蛋，不是各平台共有的功能。** 只有 macOS 版（3.14.0 及以上）才有；Windows 2.0.1 / 1.5.1 与 Android 版都没有，也不影响它们一致的法条检索与学习功能。
 
 在「设置 → 智能」里点一张卡片，按 ⌥⌘A 打开的对话小窗就会换成这位角色的形象和说话方式。没联网、没填密钥时也能聊——它会直接翻本地法条库，把相关条文列给你。
 
@@ -91,14 +91,14 @@ macOS 端从 PySide6 原型起步，依次走过 SwiftUI 2.0、3.0，当前为 S
 
 ## 选哪个版本
 
-**Windows 现在主推 2.0.0 完整版，Lite 仍停在 1.5.1**，按需要选一个装即可，不要同时装：
+**Windows 现在主推 2.0.1 完整版，Lite 仍停在 1.5.1**，按需要选一个装即可，不要同时装：
 
-- **2.0.0 完整版（推荐）**：C# / .NET 8 / WinUI 3 重写，自包含，目标机不需要预装 .NET、Python 或 Windows App Runtime；要求 Windows 10 1809 及以上、64 位。包含全部法律条文与司法解释，法条库按四卷组织——核心法（宪法、民法、商法、刑法）、附加法（行政、经济、知识产权、劳动社保、环境资源）、司法解释、国际法，合计 **107 部 / 9408 条**。
+- **2.0.1 完整版（推荐）**：C# / .NET 8 / WinUI 3 重写，自包含，目标机不需要预装 .NET、Python 或 Windows App Runtime；要求 Windows 10 1809 及以上、64 位。包含全部法律条文与司法解释，法条库按四卷组织——核心法（宪法、民法、商法、刑法）、附加法（行政、经济、知识产权、劳动社保、环境资源）、司法解释、国际法，合计 **107 部 / 9408 条**。
 - **Lite 版（1.5.1，未变）**：只包含民商法相关的法条，体积更小、启动更快，适合日常查民商事条文，也兼容 Windows 7 SP1。收录民法 / 商法 / 知识产权 **14 部 / 3266 条**，以及对应的司法解释 **35 部 / 1564 条**。
 
-2.0.0 与 1.5.1 完整版的数据都放在 `%APPDATA%/lawlearn/db`，收藏、笔记、历史沿用同一套表结构，升级不用迁移；Lite 版独立放在 `%APPDATA%/lawlearn/db-lite`，即使先后都装过也不会互相串数据。
+2.0.1 与 1.5.1 完整版的数据都放在 `%APPDATA%/lawlearn/db`，收藏、笔记、历史沿用同一套表结构，升级不用迁移；Lite 版独立放在 `%APPDATA%/lawlearn/db-lite`，即使先后都装过也不会互相串数据。
 
-**本地 AI 模型（1.5.1 起，2.0.0 同样支持）**：完整版安装包只带推理运行时，不含模型权重，在 AI 设置里按需下载（迷你 0.5B / 轻量 1.5B / 标准 3B / 增强 7B，0.5–4.4 GB，存本机用户目录）；不下载也能用云端 API。Lite 版不含推理运行时，只能使用云端 API。
+**本地 AI 模型（1.5.1 起，2.0.1 同样支持）**：完整版安装包只带推理运行时，不含模型权重，在 AI 设置里按需下载（迷你 0.5B / 轻量 1.5B / 标准 3B / 增强 7B，0.5–4.4 GB，存本机用户目录）；不下载也能用云端 API。Lite 版不含推理运行时，只能使用云端 API。
 
 ## 安装说明
 
@@ -114,10 +114,10 @@ xattr -dr com.apple.quarantine /Applications/Lawlearn.app
 
 ### Windows
 
-1. 运行 `.exe` 安装包，按中文向导完成安装。**2.0.0 要求 Windows 10 1809 及以上、64 位**；Windows 7 用户请改用 1.5.1（见上方兼容性说明）。
-2. 程序默认装在当前用户目录下（2.0.0 为 `%LOCALAPPDATA%\Programs\Lawlearn`），不需要管理员权限。
+1. 运行 `.exe` 安装包，按中文向导完成安装。**2.0.1 要求 Windows 10 1809 及以上、64 位**；Windows 7 用户请改用 1.5.1（见上方兼容性说明）。
+2. 程序默认装在当前用户目录下（2.0.1 为 `%LOCALAPPDATA%\Programs\Lawlearn`），不需要管理员权限。
 3. SmartScreen 拦截时点「更多信息 → 仍要运行」。
-4. 2.0.0 重复安装会识别为升级；卸载走「设置 → 应用」或开始菜单卸载项，**不会删除** `%APPDATA%\lawlearn` 里的收藏、笔记、模型与设置。
+4. 2.0.1 重复安装会识别为升级；卸载走「设置 → 应用」或开始菜单卸载项，**不会删除** `%APPDATA%\lawlearn` 里的收藏、笔记、模型与设置。
 
 ### Android
 
@@ -224,7 +224,7 @@ xattr -dr com.apple.quarantine /Applications/Lawlearn.app
 <details>
 <summary><strong>Windows 4.0.0 Beta（旧测试版，点开展开）</strong></summary>
 
-> 这是预览版，功能与界面仍在调整，可能不稳定。**不建议把它当作唯一安装的版本**，稳妥起见请先装上表的 2.0.0 作为日常使用，再把 Beta 装到另一个目录试用。
+> 这是预览版，功能与界面仍在调整，可能不稳定。**不建议把它当作唯一安装的版本**，稳妥起见请先装上表的 2.0.1 作为日常使用，再把 Beta 装到另一个目录试用。
 
 Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提供三个测试包：
 
@@ -235,7 +235,7 @@ Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提�
 | 免安装版 | 解压后直接运行，不写系统、不产生卸载项 | [Lawlearn-Portable-4.0.0-Beta.zip](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v4.0.0-Beta-Portable/Lawlearn-Portable-4.0.0-Beta.zip) · 53 MB |
 
 - 免安装版解压后运行 `Lawlearn/Lawlearn.exe`，可以把整个文件夹放在 U 盘里带走。
-- Beta 版与 2.0.0（或 1.5.1）可以同时安装，但请装在不同的目录下，避免数据文件互相覆盖。
+- Beta 版与 2.0.1（或 1.5.1）可以同时安装，但请装在不同的目录下，避免数据文件互相覆盖。
 - **4.0.0 Beta 不提供源代码。** 本节之外的下载项均为正式版本。
 - 反馈问题时请注明用的是 `Beta1` 还是 `Beta2`，两者并非同一份构建。
 
@@ -261,6 +261,7 @@ Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提�
 | `Lawlearn-3.10.1.dmg` | `d82e5d2ee1824244743ca4e3d4c80cc54a2b1cef7a48d6116e64563440e2fb2d` |
 | `Lawlearn-3.10.0.dmg` | `0e49ff57b36f0e3a264546a54f6c5127d360cecd68f7304b4bc1e4157b4cdd21` |
 | `Lawlearn-3.9.0.dmg` | `1d7e6db3dcc52dc788910ccf130a71de8c319b93809f51c43d935b9136711066` |
+| `Lawlearn-Setup-2.0.1.exe` | `489a31e7cc991f29321d8b39d75c56acaa97f670ec1a9a13c37cb7f9843917d8` |
 | `Lawlearn-Setup-2.0.0.exe` | `b1ad8264758299b4d6c29f6b747ae4aa12bdd2772e178868134f9e63db7131b9` |
 | `Lawlearn-Setup-1.5.1.exe` | `58ef347b9b3805285bbe222b248dff7c6db5ae36b893805a9de88e0bda9507ac` |
 | `Lawlearn-Lite-Setup-1.5.1.exe` | `bc4f5d90029a293fedb745b50dd2ee6f2900d256b93e266bce2f03fc34f6823d` |
@@ -282,7 +283,7 @@ macOS **4.0.2** 是当前版本：基于法律专业的考量，减少了不必�
 
 Android **1.5.0** 改为四卷数据库（核心法 14 部、附加法 23 部、国际法 10 部、司法解释 92 部），按 `data_version` 整卷替换升级，覆盖安装不再清空收藏、笔记与浏览记录；从 1.4.0 升级会自动迁移旧数据。APK 约 35 MB。
 
-Windows 2.0.0 的完整改动与 Windows 7 兼容性说明见 [Windows-v2.0.0](../../releases/tag/Windows-v2.0.0)；1.5.1 与 Lite 保持原样。
+Windows **2.0.1** 收拢了首页「⋯」里的设置项、补齐字号快捷键并修复模型下载页按钮裁切，完整改动与 Windows 7 兼容性说明见 [Windows-v2.0.1](../../releases/tag/Windows-v2.0.1)；2.0.0 见 [Windows-v2.0.0](../../releases/tag/Windows-v2.0.0)。1.5.1 与 Lite 保持原样。
 
 ## 关于源代码
 
