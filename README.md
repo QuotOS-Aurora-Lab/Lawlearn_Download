@@ -35,7 +35,7 @@ macOS 端从 PySide6 原型起步，依次走过 SwiftUI 2.0、3.0，当前为 S
 
 | 平台 | 版本 | 技术栈 | 系统要求 | 安装包 |
 | :--- | :--- | :--- | :--- | :--- |
-| macOS | **4.0.2** | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-4.0.2.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v4.0.2/Lawlearn-4.0.2.dmg) · 46 MB |
+| macOS | **4.1.0** | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-4.1.0.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v4.1.0/Lawlearn-4.1.0.dmg) · 73 MB |
 | Windows | **2.0.1** | C# 12 · .NET 8 · WinUI 3 | Windows 10 1809（build 17763）及以上，64 位 | [Lawlearn-Setup-2.0.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v2.0.1/Lawlearn-Setup-2.0.1.exe) · 92 MB |
 | Windows（Win7 存档） | 1.5.1 | Python · PySide2（Qt 5.15） | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1/Lawlearn-Setup-1.5.1.exe) · 206 MB |
 | Windows Lite | 1.5.1 | 同上 | 同上 | [Lawlearn-Lite-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1-Lite/Lawlearn-Lite-Setup-1.5.1.exe) · 136 MB |
@@ -132,11 +132,13 @@ xattr -dr com.apple.quarantine /Applications/Lawlearn.app
 
 139 部法律和司法解释、共 10,153 条条文（其中司法解释 92 份、3,469 条），全部存在你的电脑里。**断网也能查条文**，不联网不登录就能完成日常检索和阅读。
 
+另有《法律术语速查手册》，收录 3,099 条法条概念与学理术语；每条给出中文释义、英文与日文译名，适合查概念、写作业和中英日对照。
+
 ### 界面怎么用
 
 打开软件，你会看到三块区域：
 
-- **左边**：所有法律的列表，按类别分组（宪法、民法、刑法……）。顶部搜索框可以直接输入法律名字，也认拼音，比如 `mfd` 找到《民法典》、`xzxkf` 找到《行政许可法》。
+- **左边**：所有法律的列表，按类别分组（宪法、民法、刑法……）；列表最上方是《法律术语速查手册》。顶部搜索框可以直接输入法律名字，也认拼音，比如 `mfd` 找到《民法典》、`xzxkf` 找到《行政许可法》。
 - **中间**：点一部法律，这里列出它的全部条文；搜索时这里显示搜索结果。
 - **右边**：条文正文。有的条文下面会自动列出相关的司法解释，并标注是「补充细化」「解释适用」还是「例外排除」。
 
@@ -153,6 +155,10 @@ xattr -dr com.apple.quarantine /Applications/Lawlearn.app
 | `xingzhengxuke` | 按全拼找到《行政许可法》 |
 
 两个小提示：输入后稍停一下才出结果，这是正常的，软件在等你打完字；默认只搜最常用的几部法，想扩大范围到「设置 → 检索范围」里勾选。
+
+### 法律术语速查手册
+
+左栏最上方的《法律术语速查手册》收录 3,099 条术语，覆盖法条概念与学理术语。点开条目后，右栏以中文名词为条标，给出完整中文释义、英文与日文译名，并保留复制、查看法条等工具键。术语库支持条号、中文数字、模糊与多词检索，输入 `542`、`第五百四十二条` 或直接输入词名都能定位。
 
 ### 常用快捷键
 
@@ -180,7 +186,7 @@ xattr -dr com.apple.quarantine /Applications/Lawlearn.app
 - 回答边生成边显示，随时可以点「停止」；关掉小窗也会立刻中断。
 - 完成后可以直接「复制」「导出」成文本，或者接着「追问」。
 - 同一条条文、同一个模型、同一档位，24 小时内再问会直接复用上次结果，不重复消耗。
-- 这个功能要联网并填入自己的 AI 服务密钥（支持七家服务商，填进去会自动识别）；没有密钥时，本机装了本地模型也能用。
+- 本机模型可用时优先用本地模型，不联网也能解释；没有本地模型时再走云端，需要联网并填入自己的 AI 服务密钥（支持七家服务商，填进去会自动识别）。
 
 ### 案情分析（免费）
 
@@ -250,6 +256,7 @@ Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提�
 
 | 文件 | SHA-256 |
 | :--- | :--- |
+| `Lawlearn-4.1.0.dmg` | `85d2f6a32a1f49e2b4f9bfcbea1cfe0d2f3531f8c0f8c49b994ead787593d0da` |
 | `Lawlearn-4.0.2.dmg` | `0469b57867280637d82668331edf56dd9428c57e23332ec1cd41bedd47fe990d` |
 | `Lawlearn-4.0.1.dmg` | `0febe56546638497720fb06d440eb626acfab98bbb326f3ec1dfd5e8fd0acebd` |
 | `Lawlearn-3.14.0.dmg` | `74d9311f1d8895d0a62ab12cfcebf2668631cad6d87f234cb2fc1e0f3c651238` |
@@ -279,7 +286,7 @@ Windows 端 4.0.0 正在更换技术栈（PySide6 + Python 3.13），目前提�
 
 每个版本的改动记录写在对应 Release 的说明里，点进 [Releases](../../releases) 即可查看。
 
-macOS **4.0.2** 是当前版本：基于法律专业的考量，减少了不必要的英文词汇出现；Aether 角色显示名统一为中文（谢辞希、伊诗雅、罗亘斯、夏依恩），内部 ID 与变量名保持不变，设置里的角色卡片、形象菜单、自定义图标与使用指南同步更新。
+macOS **4.1.0** 是当前版本：左栏新增《法律术语速查手册》，收录 3099 条术语，条目以中文名词为条标，右栏提供中文释义、英文与日文译名，并支持条号、中文数字、模糊与多词检索；智能解释在本机模型可用时优先走本地；Aether 对话页接入角色记忆与内置贴图。完整改动见 [macOS-v4.1.0](../../releases/tag/macOS-v4.1.0)。
 
 Android **1.5.0** 改为四卷数据库（核心法 14 部、附加法 23 部、国际法 10 部、司法解释 92 部），按 `data_version` 整卷替换升级，覆盖安装不再清空收藏、笔记与浏览记录；从 1.4.0 升级会自动迁移旧数据。APK 约 35 MB。
 
