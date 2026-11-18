@@ -40,7 +40,7 @@ macOS 端从 PySide6 原型起步，依次走过 SwiftUI 2.0、3.0，当前为 S
 
 | 平台 | 版本 | 技术栈 | 系统要求 | 安装包 |
 | :--- | :--- | :--- | :--- | :--- |
-| macOS | **4.1.0** | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-4.1.0.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v4.1.0/Lawlearn-4.1.0.dmg) · 73 MB |
+| macOS | **4.4.0** | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-4.4.0.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v4.4.0/Lawlearn-4.4.0.dmg) · 73 MB |
 | Windows（已停更存档） | 2.0.1 | C# 12 · .NET 8 · WinUI 3 | Windows 10 1809（build 17763）及以上，64 位 | [Lawlearn-Setup-2.0.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v2.0.1/Lawlearn-Setup-2.0.1.exe) · 92 MB |
 | Windows（Win7 存档，已停更） | 1.5.1 | Python · PySide2（Qt 5.15） | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1/Lawlearn-Setup-1.5.1.exe) · 206 MB |
 | Windows Lite（已停更存档） | 1.5.1 | 同上 | 同上 | [Lawlearn-Lite-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1-Lite/Lawlearn-Lite-Setup-1.5.1.exe) · 136 MB |
@@ -263,6 +263,7 @@ Windows 端 4.0.0 原计划更换技术栈（PySide6 + Python 3.13），现有�
 
 | 文件 | SHA-256 |
 | :--- | :--- |
+| `Lawlearn-4.4.0.dmg` | `eb17c15ad759d92b61af023ac180ada07b836c9c3beeb93ae9de926cc0802a97` |
 | `Lawlearn-4.1.0.dmg` | `85d2f6a32a1f49e2b4f9bfcbea1cfe0d2f3531f8c0f8c49b994ead787593d0da` |
 | `Lawlearn-4.0.2.dmg` | `0469b57867280637d82668331edf56dd9428c57e23332ec1cd41bedd47fe990d` |
 | `Lawlearn-4.0.1.dmg` | `0febe56546638497720fb06d440eb626acfab98bbb326f3ec1dfd5e8fd0acebd` |
@@ -293,7 +294,7 @@ Windows 端 4.0.0 原计划更换技术栈（PySide6 + Python 3.13），现有�
 
 每个版本的改动记录写在对应 Release 的说明里，点进 [Releases](../../releases) 即可查看。
 
-macOS **4.1.0** 是当前版本：左栏新增《法律术语速查手册》，收录 3099 条术语，条目以中文名词为条标，右栏提供中文释义、英文与日文译名，并支持条号、中文数字、模糊与多词检索；智能解释在本机模型可用时优先走本地；Aether 对话页接入角色记忆与内置贴图。完整改动见 [macOS-v4.1.0](../../releases/tag/macOS-v4.1.0)。
+macOS **4.4.0** 是当前版本：API Key 填入或粘贴后自动识别服务商与模型，不再需要手动刷新，识别结果显示服务商简称；相较 4.1.0，本地模型改为默认本地优先、去掉 Ultimate 授权与内存拦截，本机推理只展示正文结论，服务商与模型由 Key 识别结果决定。完整改动见 [macOS-v4.4.0](../../releases/tag/macOS-v4.4.0)。
 
 Android **1.5.0** 改为四卷数据库（核心法 14 部、附加法 23 部、国际法 10 部、司法解释 92 部），按 `data_version` 整卷替换升级，覆盖安装不再清空收藏、笔记与浏览记录；从 1.4.0 升级会自动迁移旧数据。APK 约 35 MB。
 
