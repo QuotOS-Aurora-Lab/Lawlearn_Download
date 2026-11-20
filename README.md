@@ -41,10 +41,14 @@ macOS 端从 PySide6 原型起步，依次走过 SwiftUI 2.0、3.0，当前为 S
 | 平台 | 版本 | 技术栈 | 系统要求 | 安装包 |
 | :--- | :--- | :--- | :--- | :--- |
 | macOS | **4.4.0** | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-4.4.0.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v4.4.0/Lawlearn-4.4.0.dmg) · 73 MB |
+| macOS Alpha（实验预览） | **4.5.0 Alpha** | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-Alpha-4.5.0.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-alpha-v4.5.0/Lawlearn-Alpha-4.5.0.dmg) · 70 MB |
 | Windows（已停更存档） | 2.0.1 | C# 12 · .NET 8 · WinUI 3 | Windows 10 1809（build 17763）及以上，64 位 | [Lawlearn-Setup-2.0.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v2.0.1/Lawlearn-Setup-2.0.1.exe) · 92 MB |
 | Windows（Win7 存档，已停更） | 1.5.1 | Python · PySide2（Qt 5.15） | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1/Lawlearn-Setup-1.5.1.exe) · 206 MB |
 | Windows Lite（已停更存档） | 1.5.1 | 同上 | 同上 | [Lawlearn-Lite-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1-Lite/Lawlearn-Lite-Setup-1.5.1.exe) · 136 MB |
 | Android | **1.5.0** | Kotlin | Android 8.0 及以上 | [Lawlearn_v1.5.0_android.apk](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Android-v1.5.0/Lawlearn_v1.5.0_android.apk) · 35 MB |
+
+> [!NOTE]
+> **Alpha 预览版**：Alpha 与正式版使用不同 Bundle ID，可以并排安装，用户数据目录相互独立。它内置本地模型运行时，并包含法律实验室、模拟法庭、关联链图谱、历史版本对照等实验功能；仍在迭代，可能不稳定，日常法条阅读请使用正式版。
 
 全部历史版本都在 [Releases](../../releases) 里，最早可以追溯到 1.2.3。旧版存档：
 
@@ -96,8 +100,9 @@ macOS 端从 PySide6 原型起步，依次走过 SwiftUI 2.0、3.0，当前为 S
 
 ## 选哪个版本
 
-**Windows 安装包均为历史存档，不再更新；** 日常使用请选择上表中的 macOS 或 Android 当前版本。Windows 存档包按需要选一个即可，不要同时装：
+**Windows 安装包均为历史存档，不再更新；** 日常使用请选择上表中的 macOS 正式版或 Android 当前版本。想体验实验功能再考虑 macOS Alpha。Windows 存档包按需要选一个即可，不要同时装：
 
+- **macOS Alpha 4.5.0（实验预览）**：内置本地模型运行时，GGUF 模型下载后可由内置运行时加载；包含法律实验室、模拟法庭、关联链图谱、历史版本对照等 Alpha 专属功能。可与正式版并排安装，功能与界面仍可能调整，不建议作为日常主力。
 - **2.0.1 完整版（存档）**：C# / .NET 8 / WinUI 3 重写，自包含，目标机不需要预装 .NET、Python 或 Windows App Runtime；要求 Windows 10 1809 及以上、64 位。包含全部法律条文与司法解释，法条库按四卷组织——核心法（宪法、民法、商法、刑法）、附加法（行政、经济、知识产权、劳动社保、环境资源）、司法解释、国际法，合计 **107 部 / 9408 条**。
 - **Lite 版（1.5.1，存档）**：只包含民商法相关的法条，体积更小、启动更快，适合日常查民商事条文，也兼容 Windows 7 SP1。收录民法 / 商法 / 知识产权 **14 部 / 3266 条**，以及对应的司法解释 **35 部 / 1564 条**。
 
@@ -264,6 +269,7 @@ Windows 端 4.0.0 原计划更换技术栈（PySide6 + Python 3.13），现有�
 | 文件 | SHA-256 |
 | :--- | :--- |
 | `Lawlearn-4.4.0.dmg` | `eb17c15ad759d92b61af023ac180ada07b836c9c3beeb93ae9de926cc0802a97` |
+| `Lawlearn-Alpha-4.5.0.dmg` | `9954465fd9280ba0ee2eec71fd8cb9312aeffeb9fdbbbdd2c8d9c08523d63cfb` |
 | `Lawlearn-4.1.0.dmg` | `85d2f6a32a1f49e2b4f9bfcbea1cfe0d2f3531f8c0f8c49b994ead787593d0da` |
 | `Lawlearn-4.0.2.dmg` | `0469b57867280637d82668331edf56dd9428c57e23332ec1cd41bedd47fe990d` |
 | `Lawlearn-4.0.1.dmg` | `0febe56546638497720fb06d440eb626acfab98bbb326f3ec1dfd5e8fd0acebd` |
@@ -294,7 +300,9 @@ Windows 端 4.0.0 原计划更换技术栈（PySide6 + Python 3.13），现有�
 
 每个版本的改动记录写在对应 Release 的说明里，点进 [Releases](../../releases) 即可查看。
 
-macOS **4.4.0** 是当前版本：API Key 填入或粘贴后自动识别服务商与模型，不再需要手动刷新，识别结果显示服务商简称；相较 4.1.0，本地模型改为默认本地优先、去掉 Ultimate 授权与内存拦截，本机推理只展示正文结论，服务商与模型由 Key 识别结果决定。完整改动见 [macOS-v4.4.0](../../releases/tag/macOS-v4.4.0)。
+macOS **4.4.0** 是当前正式版本：API Key 填入或粘贴后自动识别服务商与模型，不再需要手动刷新，识别结果显示服务商简称；相较 4.1.0，本地模型改为默认本地优先、去掉 Ultimate 授权与内存拦截，本机推理只展示正文结论，服务商与模型由 Key 识别结果决定。完整改动见 [macOS-v4.4.0](../../releases/tag/macOS-v4.4.0)。
+
+macOS Alpha **4.5.0** 是实验预览版：内置本地模型运行时，GGUF 模型下载后可由内置运行时加载；包含法律实验室、模拟法庭、关联链图谱与历史版本对照。预发布包见 [macOS-alpha-v4.5.0](../../releases/tag/macOS-alpha-v4.5.0)，不取代当前正式版 4.4.0。
 
 Android **1.5.0** 改为四卷数据库（核心法 14 部、附加法 23 部、国际法 10 部、司法解释 92 部），按 `data_version` 整卷替换升级，覆盖安装不再清空收藏、笔记与浏览记录；从 1.4.0 升级会自动迁移旧数据。APK 约 35 MB。
 
