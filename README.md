@@ -40,7 +40,7 @@ macOS 端从 PySide6 原型起步，依次走过 SwiftUI 2.0、3.0，当前为 S
 
 | 平台 | 版本 | 技术栈 | 系统要求 | 安装包 |
 | :--- | :--- | :--- | :--- | :--- |
-| macOS | **4.4.0** | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-4.4.0.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v4.4.0/Lawlearn-4.4.0.dmg) · 73 MB |
+| macOS | **4.5.1** | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-4.5.1.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-v4.5.1/Lawlearn-4.5.1.dmg) · 34 MB |
 | macOS Alpha（实验预览） | **4.5.0 Alpha** | Swift · SwiftUI | macOS 14.0 及以上 | [Lawlearn-Alpha-4.5.0.dmg](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/macOS-alpha-v4.5.0/Lawlearn-Alpha-4.5.0.dmg) · 70 MB |
 | Windows（已停更存档） | 2.0.1 | C# 12 · .NET 8 · WinUI 3 | Windows 10 1809（build 17763）及以上，64 位 | [Lawlearn-Setup-2.0.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v2.0.1/Lawlearn-Setup-2.0.1.exe) · 92 MB |
 | Windows（Win7 存档，已停更） | 1.5.1 | Python · PySide2（Qt 5.15） | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1/Lawlearn-Setup-1.5.1.exe) · 206 MB |
@@ -268,6 +268,7 @@ Windows 端 4.0.0 原计划更换技术栈（PySide6 + Python 3.13），现有�
 
 | 文件 | SHA-256 |
 | :--- | :--- |
+| `Lawlearn-4.5.1.dmg` | `18d154bf0f99753496fcd71c40703b820aee9123a765c491edbb4f72d87a5b82` |
 | `Lawlearn-4.4.0.dmg` | `eb17c15ad759d92b61af023ac180ada07b836c9c3beeb93ae9de926cc0802a97` |
 | `Lawlearn-Alpha-4.5.0.dmg` | `9954465fd9280ba0ee2eec71fd8cb9312aeffeb9fdbbbdd2c8d9c08523d63cfb` |
 | `Lawlearn-4.1.0.dmg` | `85d2f6a32a1f49e2b4f9bfcbea1cfe0d2f3531f8c0f8c49b994ead787593d0da` |
@@ -300,9 +301,9 @@ Windows 端 4.0.0 原计划更换技术栈（PySide6 + Python 3.13），现有�
 
 每个版本的改动记录写在对应 Release 的说明里，点进 [Releases](../../releases) 即可查看。
 
-macOS **4.4.0** 是当前正式版本：API Key 填入或粘贴后自动识别服务商与模型，不再需要手动刷新，识别结果显示服务商简称；相较 4.1.0，本地模型改为默认本地优先、去掉 Ultimate 授权与内存拦截，本机推理只展示正文结论，服务商与模型由 Key 识别结果决定。完整改动见 [macOS-v4.4.0](../../releases/tag/macOS-v4.4.0)。
+macOS **4.5.1** 是当前正式版本：主图标重做为扁平风格，去掉渐变、高光与立体感，天平立在展开的书脊上，圆角外白底改为透明，程序坞、dmg 与设置页图标同步更新。相较 4.4.0，六个原本要先装 Ollama 的模型改为下载即用。完整改动见 [macOS-v4.5.1](../../releases/tag/macOS-v4.5.1)。
 
-macOS Alpha **4.5.0** 是实验预览版：内置本地模型运行时，GGUF 模型下载后可由内置运行时加载；包含法律实验室、模拟法庭、关联链图谱与历史版本对照。预发布包见 [macOS-alpha-v4.5.0](../../releases/tag/macOS-alpha-v4.5.0)，不取代当前正式版 4.4.0。
+macOS Alpha **4.5.0** 是实验预览版：内置本地模型运行时，GGUF 模型下载后可由内置运行时加载；包含法律实验室、模拟法庭、关联链图谱与历史版本对照。预发布包见 [macOS-alpha-v4.5.0](../../releases/tag/macOS-alpha-v4.5.0)，不取代当前正式版 4.5.1。
 
 Android **1.5.0** 改为四卷数据库（核心法 14 部、附加法 23 部、国际法 10 部、司法解释 92 部），按 `data_version` 整卷替换升级，覆盖安装不再清空收藏、笔记与浏览记录；从 1.4.0 升级会自动迁移旧数据。APK 约 35 MB。
 
