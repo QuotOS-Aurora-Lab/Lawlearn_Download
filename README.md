@@ -45,7 +45,7 @@ macOS 端从 PySide6 原型起步，依次走过 SwiftUI 2.0、3.0，当前为 S
 | Windows（已停更存档） | 2.0.1 | C# 12 · .NET 8 · WinUI 3 | Windows 10 1809（build 17763）及以上，64 位 | [Lawlearn-Setup-2.0.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v2.0.1/Lawlearn-Setup-2.0.1.exe) · 92 MB |
 | Windows（Win7 存档，已停更） | 1.5.1 | Python · PySide2（Qt 5.15） | Windows 7 SP1 及以上（64 位） | [Lawlearn-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1/Lawlearn-Setup-1.5.1.exe) · 206 MB |
 | Windows Lite（已停更存档） | 1.5.1 | 同上 | 同上 | [Lawlearn-Lite-Setup-1.5.1.exe](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Windows-v1.5.1-Lite/Lawlearn-Lite-Setup-1.5.1.exe) · 136 MB |
-| Android | **1.5.0** | Kotlin | Android 8.0 及以上 | [Lawlearn_v1.5.0_android.apk](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Android-v1.5.0/Lawlearn_v1.5.0_android.apk) · 35 MB |
+| Android | **1.5.1** | Kotlin | Android 8.0 及以上 | [Lawlearn_v1.5.1_android.apk](https://github.com/QuotOS-Aurora-Lab/Lawlearn_Download/releases/download/Android-v1.5.1/Lawlearn_v1.5.1_android.apk) · 35 MB |
 
 > [!NOTE]
 > **Alpha 预览版**：Alpha 与正式版使用不同 Bundle ID，可以并排安装，用户数据目录相互独立。它内置本地模型运行时，并包含法律实验室、模拟法庭、关联链图谱、历史版本对照等实验功能；仍在迭代，可能不稳定，日常法条阅读请使用正式版。
@@ -289,6 +289,7 @@ Windows 端 4.0.0 原计划更换技术栈（PySide6 + Python 3.13），现有�
 | `Lawlearn-Lite-Setup-1.5.1.exe` | `bc4f5d90029a293fedb745b50dd2ee6f2900d256b93e266bce2f03fc34f6823d` |
 | `Lawlearn-Setup-1.2.6.exe` | `45fe683fd088ac9edd3ba1ed9f8b86d4fc0b8a1ff463265b73f3775124061dbc` |
 | `Lawlearn-Lite-Setup-1.2.6.exe` | `b04001b6ff022024df35ad9843e22d438e37cce7c37543f864340859f1c35a3c` |
+| `Lawlearn_v1.5.1_android.apk` | `b0892ba9e98a3df1b1680b8a7893e67d645dfca477423d3dfc25f5b21a678016` |
 | `Lawlearn_v1.5.0_android.apk` | `3190caecc21826c40a060caedde092f81c57f0c2c939571559560ec77b0a8788` |
 | `Lawlearn_v1.3.2_android.apk` | `e2a7993c2ac6c0cf43f8f6f6fd4fc9de9b1b4685228339453243ef7397cc11d0` |
 | `Lawlearn-Setup-4.0.0-Beta1.exe` | `97b4690b4c86d50550d7a83d79e024a75bb3bfb912a590d1291a23586047d299` |
@@ -305,7 +306,7 @@ macOS **4.5.1** 是当前正式版本：主图标重做为扁平风格，去掉�
 
 macOS Alpha **4.5.0** 是实验预览版：内置本地模型运行时，GGUF 模型下载后可由内置运行时加载；包含法律实验室、模拟法庭、关联链图谱与历史版本对照。预发布包见 [macOS-alpha-v4.5.0](../../releases/tag/macOS-alpha-v4.5.0)，不取代当前正式版 4.5.1。
 
-Android **1.5.0** 改为四卷数据库（核心法 14 部、附加法 23 部、国际法 10 部、司法解释 92 部），按 `data_version` 整卷替换升级，覆盖安装不再清空收藏、笔记与浏览记录；从 1.4.0 升级会自动迁移旧数据。APK 约 35 MB。
+Android **1.5.1** 仅更换主图标为扁平蓝底、金色天平立于白色展开书本之上的设计，功能与法条数据库无变化；签名证书与 1.5.0 一致，可直接覆盖升级，APK 约 35 MB。1.5.0 改为四卷数据库（核心法 14 部、附加法 23 部、国际法 10 部、司法解释 92 部），按 `data_version` 整卷替换升级，覆盖安装不再清空收藏、笔记与浏览记录。
 
 Windows **2.0.1** 为最终存档版本：收拢了首页「⋯」里的设置项、补齐字号快捷键并修复模型下载页按钮裁切，完整改动与 Windows 7 兼容性说明见 [Windows-v2.0.1](../../releases/tag/Windows-v2.0.1)；2.0.0 见 [Windows-v2.0.0](../../releases/tag/Windows-v2.0.0)。1.5.1 与 Lite 同样保持原样，不再更新。
 
